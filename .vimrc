@@ -3,7 +3,6 @@
 set nocompatible
 syntax on
 
-
 " enabling fuzzyfinding
 set path+=**
 set wildmenu
@@ -11,9 +10,11 @@ set wildmenu
 " input preferences
 inoremap jk <Esc>
 inoremap <Esc> <Nop>
+set smarttab
+set expandtab
 
 " view preferences
-set smarttab
+set tabstop=4
 set nu
 set relativenumber
 ""set highlight=1
