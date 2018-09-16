@@ -4,6 +4,8 @@
 # updates remote github repository to match local
 ###########################################################################
 
+git fetch --all
+git checkout master
 git add .
 
 if [[ -z $1 ]]
