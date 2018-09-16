@@ -6,6 +6,7 @@
 
 git fetch --all
 git checkout master
+git merge
 git add .
 
 if [[ -z $1 ]]
