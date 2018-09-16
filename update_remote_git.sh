@@ -6,6 +6,7 @@
 
 git fetch --all
 git checkout master
+git config merge.defaultToUpstream true
 git merge
 git add .
 
